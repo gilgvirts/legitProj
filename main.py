@@ -14,7 +14,11 @@ CREDS = {"username": "gilgvirts@gmail.com", "password": "123456gG!"}
 
 def set_driver():
     """Set up Chrome WebDriver"""
-    return webdriver.Chrome(options=Options())
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    return webdriver.Chrome(options=options)
 
 
 def keys_to_input(driver, input_id, keys, attribute="name"):
