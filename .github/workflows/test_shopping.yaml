@@ -1,6 +1,8 @@
 name: Selenium Test
 
-on: [push]
+on:
+  schedule:
+    - cron: '15 11 * * *'  # Run the workflow daily at midnight UTC
 
 jobs:
   test:
