@@ -1,0 +1,46 @@
+# Online Shopping Selenium Test
+
+This repository contains a Selenium test script for an online shopping website.
+The test script automates the process of signing in,
+adding products to the cart, going through the checkout process, and verifying the order.
+
+## Prerequisites
+
+Before running the test, ensure you have the following installed:
+
+- Python 3.x
+- pip (Python package manager)
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/gilgvirts/online-shopping-selenium-test.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd online-shopping-selenium-test
+    ```
+
+3. Install the required dependencies using pip:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Running the Test
+
+1. Ensure that you have Google Chrome installed on your machine.
+
+2. To run the test, execute the following command:
+
+    ```bash
+    python test_script.py
+    ```
+
+3. The script will perform the automated test steps, and output the test results to the console, 0 if test was successful.
+
+4. On tester.py there is another bug catching test.
